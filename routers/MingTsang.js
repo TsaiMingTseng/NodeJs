@@ -12,8 +12,8 @@ router.use(function timeLog(req, res, next) {
 router.get('/', function(req, res) {
   res.send(
     'Fisheep\'s home page'+'<br>'+
-    '<a href="/user/Fisheep/about"> about </a>'+'<br>'+
-    '<a href="/user/Fisheep/classA.html"> classA </a>'
+    '<a href="/user/MingTsang/about"> about </a>'+'<br>'+
+    '<a href="/user/MingTsang/classA.html"> classA </a>'
     );
 });
 
@@ -24,5 +24,6 @@ router.get('/about', function(req, res) {
     '\n <img src="https://www.omgtw.com/upload/article/original/be134fac90625546754962aeef34925c.jpg" height="60%">'
     );
 });
+
 
 module.exports = router;
