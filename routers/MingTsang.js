@@ -11,8 +11,8 @@ router.use(function timeLog(req, res, next) {
 
 router.get('/', function(req, res) {
   res.send(
-    'Fisheep\'s home page'+'<br>'+
-    '<a href="/user/MingTsang/about"> about </a>'+'<br>'+
+    'MingTsang\'s home page'+'<br>'+
+    '<a href="/user/MingTsang/about"> about MingTsang</a>'+'<br>'+
     '<a href="/user/MingTsang/classA.html"> classA </a>'
     );
 });
@@ -20,8 +20,8 @@ router.get('/', function(req, res) {
 // define the about route
 router.get('/about', function(req, res) {
   res.send(
-    '<h1> About Fisheep </h1>'+
-    '\n <img src="https://www.omgtw.com/upload/article/original/be134fac90625546754962aeef34925c.jpg" height="60%">'
+    '<h1> About MingTsang </h1>'+'<br>'+
+    '<a href="/user"> 回到主頁 </a>'
     );
 });
 
